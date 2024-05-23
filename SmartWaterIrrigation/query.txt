@@ -1,0 +1,2 @@
+select address, count(address) from location group by address; --->for calculate count 
+select address, count(address) as count1 from location group by address---rename column name count1
